@@ -76,7 +76,8 @@ start:
             for (int j = 0; j < column_B; j++)
             {
                 New_Matrix[i][j] = 0;
-                // MAIN LOGIC  FORM HERE 
+                // MAIN LOGIC  FORM HERE
+                // //  K < cloumn_A inplace of column_A we can use row_B as they are both same .
                 for (int k = 0; k < column_A; k++)
                 {
                     New_Matrix[i][j] += Matrix_A[i][k] * Matrix_B[k][j];
