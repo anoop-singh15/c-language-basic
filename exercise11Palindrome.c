@@ -5,7 +5,7 @@ int palindrome(int num)
     int digit = 0;
     while (num != 0)
     {
-        int a;
+        
         digit = digit * 10 + num % 10;
         num = num / 10;
     }
